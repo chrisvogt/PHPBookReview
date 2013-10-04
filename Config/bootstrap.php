@@ -53,6 +53,8 @@ Cache::config('default', array('engine' => 'File'));
  *
  */
 
+CakePlugin::load('DebugKit');
+
 /**
  * Custom Inflector rules, can be set to correctly pluralize or singularize table, model, controller names or whatever other
  * string is passed to the inflection functions
